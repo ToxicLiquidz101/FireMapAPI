@@ -1,0 +1,10 @@
+main: dev.firekookies.scripts.MapAPI
+name: FireMapAPI
+
+api-version: 1.16
+
+version: 1.2.2
+author: FireKookies
+
+commands:
+  firemap:
