@@ -15,19 +15,17 @@ Now you can access this file and create new information FYI I havent created a l
 // TODO Fix override I believe this is fix by the load() function would have to double check.
 The Following Method will create any graphics you desire and let the API handle the rest.
 
-		fileRender.load();
-		fileRender.addMap(player, id);
-		fileRender.draw(draw);
-		fileRender.drawLine(color, x1, y1, x2, y2);
-		fileRender.drawPixel(color, x, y);
-		fileRender.drawText(x, y, xb, text);
-		fileRender.lineSpacing(lineSpacing);
-		fileRender.removeMap(player);
-		fileRender.removeMap(player, id);
-		fileRender.setMaps(maps);
-		fileRender.save();
-		
-		manager.createCanvas((Player) sender, "map");
+	fileRender.load();
+	fileRender.addMap(player, id);
+	fileRender.draw(draw);
+	fileRender.drawLine(color, x1, y1, x2, y2);
+	fileRender.drawPixel(color, x, y);
+	fileRender.drawText(x, y, xb, text);
+	fileRender.lineSpacing(lineSpacing);
+	fileRender.removeMap(player);
+	fileRender.removeMap(player, id);
+	fileRender.setMaps(maps);
+	fileRender.save();
     
 Theses are all the submethods that are use threw out the program.
     
