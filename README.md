@@ -3,8 +3,8 @@ Minecraft API that render maps in custom.
 
 
 Use this API add this API to the build path.
-In any class type "FileRender <preferredReferrence> = new FileRender(<FileName>);
-In any class to render reloads etc and even create maps type "MapManager <referredReferrence> = new MapManager();
+In any class type FileRender <preferredReferrence> = new FileRender(<FileName>);
+In any class to render reloads etc and even create maps type MapManager <referredReferrence> = new MapManager();
 	
 	manager.createCanvas(player, <FileName>); // Will create a canvas givinn to the player with the corresponding map file instructions
 	manager.reload(<FileName>); // reload specific file ps there ingame commands 
