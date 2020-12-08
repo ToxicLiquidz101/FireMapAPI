@@ -3,13 +3,16 @@ Minecraft API that render maps in custom.
 
 
 Use this API add this API to the build path.
-
 In any class type "FileRender <preferredReferrence> = new FileRender(<FileName>);
-
+In any class to render reloads etc and even create maps type "MapManager <referredReferrence> = new MapManager();
+	
+	manager.createCanvas(player, <FileName>); // Will create a canvas givinn to the player with the corresponding map file instructions
+	manager.reload(<FileName>); // reload specific file ps there ingame commands 
+	manager.load(<FileName);
+	manager.unload(<FileName>);
+	
 Now you can access this file and create new information FYI I havent created a load function this will overright existing file information. 
-
 // TODO Fix override I believe this is fix by the load() function would have to double check.
-
 The Following Method will create any graphics you desire and let the API handle the rest.
 
 		fileRender.load();
@@ -23,6 +26,8 @@ The Following Method will create any graphics you desire and let the API handle 
 		fileRender.removeMap(player, id);
 		fileRender.setMaps(maps);
 		fileRender.save();
+		
+		manager.createCanvas((Player) sender, "map");
     
 Theses are all the submethods that are use threw out the program.
     
