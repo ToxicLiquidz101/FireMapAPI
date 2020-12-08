@@ -93,7 +93,7 @@ public class onMapCommands extends DeveloperConsole implements TabExecutor {
 				break;
 			case "HELP":
 				
-				this.manager.createCanvas((Player) sender, "map");
+				//this.manager.createCanvas((Player) sender, "map");
 				break;
 			}
 			
